@@ -3,7 +3,7 @@
 owner: m-srl    # ← schimbă cu username-ul tău GitHub
 repo: uptime-monitor                # ← ex: uptime-monitor
 user-agent: Upptime-Pegasus-Monitor
-baseUrl: https://m-srl.github.io/uptime-monitor
+baseUrl: /uptime-monitor
 
 # Endpoint-urile monitorizate
 sites:
