@@ -1,4 +1,4 @@
-# [📈 Live Status](https://m-srl.github.io/uptime-monitor): <!--live status--> **🟥 Complete outage**
+# [📈 Live Status](https://m-srl.github.io/uptime-monitor): <!--live status--> **🟥 Not really**
 
 This repository contains the open-source uptime monitor and status page for [m-srl](https://m-srl.github.io/uptime-monitor), powered by [Upptime](https://github.com/upptime/upptime).
 
