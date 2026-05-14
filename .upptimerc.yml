@@ -1,43 +1,40 @@
-# Upptime config — see https://upptime.js.org/docs/configuration
+owner: m-srl
+repo: uptime-monitor
 
-owner: m-srl  
-repo: uptime-monitor                # ← ex: uptime-monitor
 user-agent: Upptime-Pegasus-Monitor
 
-# Endpoint-urile monitorizate
 sites:
   - name: Pegasus
     url: https://pegasusit.ro
     expectedStatusCodes:
       - 200
+
   - name: Pegasus - Health
     url: https://status.pegasusit.ro/health
     headers:
       - "X-Health-Token: $HEALTH_TOKEN"
     expectedStatusCodes:
       - 200
-    maxResponseTime: 1000  
+    maxResponseTime: 1000
+
   - name: Pegasus - Proprietati
     url: https://pegasusit.ro/proprietati
     expectedStatusCodes:
       - 200
 
-# Status page settings
 status-website:
-  cname: ""                    # gol = folosește github.io URL-ul default
+  cname: ""
   baseUrl: /uptime-monitor
   name: Uptime Status
   introTitle: "Status checks"
   introMessage: "Monitorizare automata a serviciilor."
   logoUrl: ""
 
-# Notification config (vom completa secrets în pas 3)
 notifications:
-  - type: telegram
-    botToken: $NOTIFICATION_TELEGRAM_BOT_KEY
-    chatId: $NOTIFICATION_TELEGRAM_CHAT_ID
+  - telegram:
+      botToken: $NOTIFICATION_TELEGRAM_BOT_KEY
+      chatId: $NOTIFICATION_TELEGRAM_CHAT_ID
 
-# Comportament
 commitMessages:
   readmeContent: ":pencil: Update summary in README [skip ci]"
   summaryJson: ":card_file_box: Update status summary [skip ci]"
@@ -45,7 +42,6 @@ commitMessages:
   graphsUpdate: ":bar_chart: Update graphs [skip ci]"
   readmeBuild: ":robot: Built README [skip ci]"
 
-# Misc
 i18n:
   activeIncidents: Incidente active
   allSystemsOperational: Toate serviciile functioneaza corect
