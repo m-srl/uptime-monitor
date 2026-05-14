@@ -13,7 +13,7 @@ sites:
   - name: Pegasus - Health
     url: https://status.pegasusit.ro/health
     headers:
-      - "X-Health-Token: $HEALTH_TOKEN"
+      - X-Health-Token: $HEALTH_TOKEN
     expectedStatusCodes:
       - 200
     maxResponseTime: 1000  
