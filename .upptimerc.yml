@@ -34,7 +34,7 @@ status-website:
 # Notification config (vom completa secrets în pas 3)
 notifications:
   - type: telegram
-    botKey: $NOTIFICATION_TELEGRAM_BOT_KEY
+    botToken: $NOTIFICATION_TELEGRAM_BOT_KEY
     chatId: $NOTIFICATION_TELEGRAM_CHAT_ID
 
 # Comportament
