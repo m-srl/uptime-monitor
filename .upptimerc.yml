@@ -1,31 +1,54 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Upptime config — see https://upptime.js.org/docs/configuration
 
+owner: m-srl    # ← schimbă cu username-ul tău GitHub
+repo: uptime-monitor                # ← ex: uptime-monitor
+
+# Endpoint-urile monitorizate
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Pegasus
+    url: https://pegasusit.ro
+  - name: Pegasus - Health
+    url: https://pegasusit.ro/api/health?probe=readiness
+    expectedStatusCodes:
+      - 200
+  - name: Pegasus - Proprietati
+    url: https://pegasusit.ro/proprietati
 
+# Status page settings
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  cname: ""                    # gol = folosește github.io URL-ul default
+  name: Uptime Status
+  introTitle: "Status checks"
+  introMessage: "Monitorizare automata a serviciilor."
+  logoUrl: ""
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Notification config (vom completa secrets în pas 3)
+notifications:
+  - type: telegram
+    botKey: $NOTIFICATION_TELEGRAM_BOT_KEY
+    chatId: $NOTIFICATION_TELEGRAM_CHAT_ID
+
+# Comportament
+commitMessages:
+  readmeContent: ":pencil: Update summary in README [skip ci]"
+  summaryJson: ":card_file_box: Update status summary [skip ci]"
+  statusChange: "$EMOJI $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci]"
+  graphsUpdate: ":bar_chart: Update graphs [skip ci]"
+  readmeBuild: ":robot: Built README [skip ci]"
+
+# Misc
+i18n:
+  activeIncidents: Incidente active
+  allSystemsOperational: Toate serviciile functioneaza
+  incidentReportOn: Raport incident pe
+  incident: Incident
+  scheduledMaintenance: Mentenanta programata
+  status: Status
+  upptime: Generat de Upptime
+  responseTime: Timp raspuns
+  uptime: Uptime
+  hours: ore
+  days: zile
+  months: luni
+  years: ani
+  ago: in urma
