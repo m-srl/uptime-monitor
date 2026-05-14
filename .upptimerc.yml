@@ -1,6 +1,6 @@
 # Upptime config — see https://upptime.js.org/docs/configuration
 
-owner: m-srl    # ← schimbă cu username-ul tău GitHub
+owner: m-srl  
 repo: uptime-monitor                # ← ex: uptime-monitor
 user-agent: Upptime-Pegasus-Monitor
 
@@ -48,7 +48,7 @@ commitMessages:
 # Misc
 i18n:
   activeIncidents: Incidente active
-  allSystemsOperational: Toate serviciile functioneaza
+  allSystemsOperational: Toate serviciile functioneaza corect
   incidentReportOn: Raport incident pe
   incident: Incident
   scheduledMaintenance: Mentenanta programata
