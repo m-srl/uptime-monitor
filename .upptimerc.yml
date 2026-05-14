@@ -8,12 +8,19 @@ user-agent: Upptime-Pegasus-Monitor
 sites:
   - name: Pegasus
     url: https://pegasusit.ro
-  - name: Pegasus - Health
-    url: https://pegasusit.ro/api/health?probe=readiness
     expectedStatusCodes:
       - 200
+  - name: Pegasus - Health
+    url: https://status.pegasusit.ro/health
+    headers:
+      - "X-Health-Token: $HEALTH_TOKEN"
+    expectedStatusCodes:
+      - 200
+    maxResponseTime: 1000  
   - name: Pegasus - Proprietati
     url: https://pegasusit.ro/proprietati
+    expectedStatusCodes:
+      - 200
 
 # Status page settings
 status-website:
