@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1419,
-    "timeDay": 724,
-    "timeWeek": 844,
-    "timeMonth": 1419,
-    "timeYear": 1419,
+    "time": 1396,
+    "timeDay": 707,
+    "timeWeek": 807,
+    "timeMonth": 1396,
+    "timeYear": 1396,
     "dailyMinutesDown": {}
   },
   {
@@ -23,16 +23,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/status.pegasusit.ro.ico",
     "slug": "pegasus-health",
     "status": "down",
-    "uptime": "97.54%",
+    "uptime": "97.74%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "97.54%",
-    "uptimeYear": "97.54%",
-    "time": 551,
-    "timeDay": 888,
-    "timeWeek": 557,
-    "timeMonth": 551,
-    "timeYear": 551,
+    "uptimeMonth": "97.74%",
+    "uptimeYear": "97.74%",
+    "time": 548,
+    "timeDay": 462,
+    "timeWeek": 533,
+    "timeMonth": 548,
+    "timeYear": 548,
     "dailyMinutesDown": {
       "2026-05-14": 411
     }
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 709,
-    "timeDay": 766,
-    "timeWeek": 810,
-    "timeMonth": 709,
-    "timeYear": 709,
+    "time": 708,
+    "timeDay": 700,
+    "timeWeek": 776,
+    "timeMonth": 708,
+    "timeYear": 708,
     "dailyMinutesDown": {}
   }
 ]
