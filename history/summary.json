@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/pegasusit.ro.ico",
     "slug": "pegasus",
     "status": "up",
-    "uptime": "99.82%",
+    "uptime": "99.83%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.79%",
-    "uptimeYear": "99.82%",
-    "time": 1158,
-    "timeDay": 814,
-    "timeWeek": 768,
-    "timeMonth": 851,
-    "timeYear": 1158,
+    "uptimeYear": "99.83%",
+    "time": 1142,
+    "timeDay": 276,
+    "timeWeek": 716,
+    "timeMonth": 834,
+    "timeYear": 1142,
     "dailyMinutesDown": {
       "2026-06-11": 91
     }
@@ -25,16 +25,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/status.pegasusit.ro.ico",
     "slug": "pegasus-health",
     "status": "up",
-    "uptime": "99.22%",
+    "uptime": "99.24%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.22%",
-    "time": 558,
-    "timeDay": 914,
-    "timeWeek": 595,
+    "uptimeYear": "99.24%",
+    "time": 556,
+    "timeDay": 447,
+    "timeWeek": 593,
     "timeMonth": 562,
-    "timeYear": 558,
+    "timeYear": 556,
     "dailyMinutesDown": {
       "2026-05-14": 411
     }
@@ -50,11 +50,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.79%",
     "uptimeYear": "99.83%",
-    "time": 769,
-    "timeDay": 841,
-    "timeWeek": 789,
-    "timeMonth": 828,
-    "timeYear": 769,
+    "time": 767,
+    "timeDay": 634,
+    "timeWeek": 785,
+    "timeMonth": 824,
+    "timeYear": 767,
     "dailyMinutesDown": {
       "2026-06-11": 91
     }
