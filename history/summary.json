@@ -4,19 +4,20 @@
     "url": "https://pegasusit.ro",
     "icon": "https://icons.duckduckgo.com/ip3/pegasusit.ro.ico",
     "slug": "pegasus",
-    "status": "up",
+    "status": "down",
     "uptime": "99.92%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.92%",
-    "time": 1002,
-    "timeDay": 920,
-    "timeWeek": 861,
-    "timeMonth": 799,
-    "timeYear": 1002,
+    "time": 998,
+    "timeDay": 777,
+    "timeWeek": 832,
+    "timeMonth": 794,
+    "timeYear": 998,
     "dailyMinutesDown": {
-      "2026-06-11": 91
+      "2026-06-11": 91,
+      "2026-08-01": 0
     }
   },
   {
@@ -25,11 +26,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/status.pegasusit.ro.ico",
     "slug": "pegasus-health",
     "status": "up",
-    "uptime": "97.60%",
+    "uptime": "97.61%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "94.74%",
-    "uptimeYear": "97.60%",
+    "uptimeYear": "97.61%",
     "time": 589,
     "timeDay": 249,
     "timeWeek": 762,
@@ -46,19 +47,20 @@
     "url": "https://pegasusit.ro/proprietati",
     "icon": "https://icons.duckduckgo.com/ip3/pegasusit.ro.ico",
     "slug": "pegasus-proprietati",
-    "status": "up",
+    "status": "down",
     "uptime": "99.92%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.92%",
-    "time": 756,
-    "timeDay": 1075,
-    "timeWeek": 758,
-    "timeMonth": 744,
-    "timeYear": 756,
+    "time": 755,
+    "timeDay": 864,
+    "timeWeek": 745,
+    "timeMonth": 741,
+    "timeYear": 755,
     "dailyMinutesDown": {
-      "2026-06-11": 91
+      "2026-06-11": 91,
+      "2026-08-01": 0
     }
   }
 ]
